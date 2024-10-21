@@ -1,5 +1,3 @@
-import java.time.LocalDate;
-
 public interface ITask {
     String getTitle();
     void setTitle(String title);
