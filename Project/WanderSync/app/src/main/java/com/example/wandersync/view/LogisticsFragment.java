@@ -74,6 +74,10 @@ public class LogisticsFragment extends Fragment {
         return "current_user";
     }
 
+    public boolean getPieChartVisibility() {
+        return pieChart.getVisibility() == View.VISIBLE;
+    }
+
     private void visualizeTripDays() {
         int allottedDays = 10;
         int plannedDays = 6;
