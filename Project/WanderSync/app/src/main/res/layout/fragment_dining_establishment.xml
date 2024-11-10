@@ -41,7 +41,6 @@
             android:layout_height="wrap_content"
             android:background="@drawable/edit_text_background"
             android:hint="Date (dd/mm/yyyy)"
-            android:focusable="false"
             android:inputType="date" />
 
         <!-- Time input field -->
@@ -51,7 +50,6 @@
             android:layout_height="wrap_content"
             android:background="@drawable/edit_text_background"
             android:hint="Time (HH:mm)"
-            android:focusable="false"
             android:inputType="time" />
 
         <!-- Review input field -->
